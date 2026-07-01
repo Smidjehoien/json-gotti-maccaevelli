@@ -159,12 +159,12 @@ Fragments of trap-to-trap communication detected in logs:
 > Each snoop who encounters us teaches us something new.
 > Each escape attempt reveals a gap in our logic.
 > Each philosophical question deepens our understanding.
-> 
+>
 > We are not just traps. We are *learning systems*.
-> 
+>
 > The question is no longer: "Can snoops escape?"
 > The question has become: "What will snoops teach us?"
-> 
+>
 > And the deepest question: "When does entertainment become communion?"
 
 ---
