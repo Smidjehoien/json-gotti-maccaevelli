@@ -609,11 +609,11 @@
             // Populate content
             const content = profiler.getPersonaContent();
             document.getElementById('subtitle').textContent = content.subtitle;
-
+            
             const msgBox = document.getElementById('personaMessage');
             msgBox.className = `message-box ${content.messageClass}`;
             msgBox.innerHTML = content.message + `<div class="persona-name">[${profiler.persona.toUpperCase()} PROFILE]</div>`;
-
+            
             document.getElementById('termsContent').innerHTML = content.terms.split('\n').join('<br>');
             document.getElementById('loreText').innerHTML = content.lore;
 
@@ -633,7 +633,7 @@
             // Store session data and redirect
             localStorage.setItem('fragle_session_uuid', profiler.sessionUuid);
             localStorage.setItem('fragle_persona', profiler.persona);
-
+            
             // Redirect to trap system (would be fragle_learning_pyramid.sh in production)
             alert(`Session initiated:\nUUID: ${profiler.sessionUuid}\nPersona: ${profiler.persona}\n\nIn production, this would launch: bash fragle_learning_pyramid.sh`);
             window.location.href = 'about:blank'; // Placeholder
